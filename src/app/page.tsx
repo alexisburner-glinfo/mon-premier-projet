@@ -20,14 +20,14 @@ export default function Home() {
           <div className={styles.ctas}>
             <a
               className={styles.primary}
-              href="mon-premier-projet\src\app\about.tsx"
+              href="/about"
               rel="noopener noreferrer"
             >
               About
             </a>
             <a
               className={styles.primary}
-              href="./contact.tsx"
+              href="/contact"
               rel="noopener noreferrer"
             >
               Contact
