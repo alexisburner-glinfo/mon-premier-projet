@@ -16,6 +16,24 @@ export default function Home() {
         />
         <div className={styles.intro}>
           <h1>Bienvenue dos !</h1>
+
+          <div className={styles.ctas}>
+            <a
+              className={styles.primary}
+              href="/about"
+              rel="noopener noreferrer"
+            >
+              About
+            </a>
+            <a
+              className={styles.primary}
+              href="/contact"
+              rel="noopener noreferrer"
+            >
+              Contact
+            </a>
+          </div>
+
           <p>
             Looking for a starting point or more instructions? Head over to{" "}
             <a
