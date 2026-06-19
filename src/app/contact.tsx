@@ -15,7 +15,7 @@ export default function Home() {
           priority
         />
         <div className={styles.intro}>
-          <h1>Contact</h1>
+          <h1>Contact : </h1>
           <p>alexis.burner@glinfo.fr</p>
         </div>
       </main>
